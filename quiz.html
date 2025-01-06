@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="firebaseauth.js"></script>
+</head>
+<body>
+
+
+      <!-- Quiz  starts here -->
+      <div class="quiz-questions" id="quiz-question">
+        <div class="ques-1" id="ques-1">
+          <h2>Question 1</h2>
+          <p>What is the full form of HTML?</p>
+          <input type="radio" name="ques-1" value="Hyper Text Markup Language">
+            Hyper Text Markup Language</input 
+          ><br />
+          <input type="radio" name="ques-1" value="Hyper Text Makeup Language">
+            Hyper Text Makeup Language</input 
+          ><br />
+          <input type="radio" name="ques-1" value="High Text Markup Language">
+            High Text Markup Language</input 
+          ><br />
+          <input type="radio" name="ques-1" value="High Text Mekeup Language">
+            High Text Mekeup Language</input 
+          ><br />
+        </div>
+        <div class="ques-2" id="ques-2">
+          <h2>Question 2</h2>
+          <p>What is the full form of CSS?</p>
+          <input  type="radio" name="ques-2" value="Cascading Style Sheets">
+            Cascading Style Sheets</input 
+          ><br />
+          <input type="radio" name="ques-2" value=" Creative Style Sheets">
+          Creative Style Sheets</input 
+          ><br />
+          <input type="radio" name="ques-2" value="Computer Style Sheets">
+          Computer Style Sheets</input 
+          ><br />
+          <input type="radio" name="ques-2" value="Colorful Style Sheets">
+          Colorful Style Sheets</input 
+          ><br />
+        </div>
+        <div class="ques-3" id="ques-3">
+          <h2>Question 3</h2>
+          <p>What is the correct answer of 2+2?</p>
+            <input type="radio" name="ques-3" value="2" required>2</input ><br />
+            <input type="radio" name="ques-3" value="22">22</input ><br />
+            <input  type="radio" name="ques-3" value="4">4</input ><br />
+            <input type="radio" name="ques-3" value="6">6</input ><br /> 
+        </div>
+        <button onclick="submit()" class="submit">submit</button>
+      </div>
+      <!-- Quiz  end here -->
+      <div class="result">
+        <p id="result-text"></p>
+      </div>
+      <!-- <script src="app.js"></script> -->
+</body>
+</html>

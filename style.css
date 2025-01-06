@@ -1,0 +1,299 @@
+/* LOgin form css starts  here  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.login h3 {
+  text-align: center;
+  color: #0c78aa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.login {
+  display: inline-block;
+  position: absolute;
+  background: rgba(107, 105, 105, 0.1);
+  backdrop-filter: border;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+a{
+  text-decoration: none; 
+}
+a:hover{
+  color: #0c78aa;
+}
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background-color: rgba(105, 100, 100, 0.2);
+  color: #070707;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+form input:focus {
+  border-color: #0adee6;
+  box-shadow: 0 0 8px rgba(3, 233, 202, 0.6);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn button {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #0f76ca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn button:hover {
+  background-color: #0fe2bf;
+}
+.btn button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+/* Login form css ends here  */
+
+/* User Guidlience css start here   */
+.user-guide {
+  display: block;
+  position: absolute;
+  background: rgba(107, 105, 105, 0.1);
+  backdrop-filter: border;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.user-guide h2 {
+  text-align: center;
+  color:#0c78aa;
+  text-decoration: underline;
+}
+.user-guide h3 {
+  text-align: center;
+  color: #0c78aa;
+  text-shadow: black;
+}
+.user-guide button {
+  width: 80px;
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #0f76ca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.user-guide button:hover {
+  background-color: #0fe2bf;
+}
+.user-guide button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+/* User Guidlience css ends  here   */
+
+/* Quiz  css start here */
+.quiz-questions {
+  display: block;
+  padding: 20px;
+  margin: 50px;
+  flex-direction: column;
+}
+.ques-1 {
+  display: block;
+  gap: 20px;
+  position: relative;
+  background: rgba(107, 105, 105, 0.1);
+  backdrop-filter: border;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+.ques-1 p {
+  text-align: center;
+  font-size: large;
+  font-weight: 40px;
+  position: relative;
+  right: 15px;
+}
+.ques-1 input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 2px solid #0f76ca;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.ques-1 input[type="radio"]:hover {
+  border-color: #0fe2bf;
+  box-shadow: 0 0 5px #0fe2bf;
+}
+
+.ques-1 input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #0f76ca;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.ques-2 {
+  display: block;
+  gap: 20px;
+  position: relative;
+  background: rgba(107, 105, 105, 0.1);
+  backdrop-filter: border;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+.ques-2 p {
+  text-align: center;
+  font-size: large;
+  font-weight: 40px;
+  position: relative;
+  right: 15px;
+}
+.ques-2 input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 2px solid #0f76ca;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.ques-2 input[type="radio"]:hover {
+  border-color: #0fe2bf;
+  box-shadow: 0 0 5px #0fe2bf;
+}
+
+.ques-2 input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #0f76ca;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.ques-3 {
+  display: block;
+  gap: 20px;
+  position: relative;
+  background: rgba(107, 105, 105, 0.1);
+  backdrop-filter: border;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+.ques-3 p {
+  text-align: center;
+  font-size: large;
+  font-weight: 40px;
+  position: relative;
+  right: 15px;
+}
+.ques-3 input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 2px solid #0f76ca;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.ques-3 input[type="radio"]:hover {
+  border-color: #0fe2bf;
+  box-shadow: 0 0 5px #0fe2bf;
+}
+
+.ques-3 input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #0f76ca;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.submit {
+  position: relative;
+  left: 110px;
+  top: 10px;
+  height: 50px;
+  width: 150px;
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #0f76ca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit:hover {
+  background-color: #0fe2bf;
+}
+.submit:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+/* Quiz  css  ends here */
